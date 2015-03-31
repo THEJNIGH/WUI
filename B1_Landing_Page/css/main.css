@@ -9,27 +9,91 @@ box-shadow:         0px 0px 5px #ececec;
 
 header
 {
-    height: 115px;
+    height: 100px;
     background-color: #480048;
     width: 100%;
+    text-align: center;
+    padding-top: 25px;
 }
 
-h1, h2
+h1
 {
-    color: #FFFFFFF;
+    color: #FFFFFF;
     font-family: Geneva, sans-serif, arial;
 }
 
-section
-{ 
-    
+#left
+{
+    width: 40.25%;
+    padding: 25px 50px;
+    text-align: justify;
+    float: left;
+    margin-bottom: 15px;
 }
 
+#right
+{
+    width: 40.25%;
+    padding: 25px 50px;
+    text-align: justify;
+    float: right;
+    margin-bottom: 15px;
+}
+#third
+{
+    clear: both;
+    margin-bottom: 15px;
+}
+table{
+	background: #f7f7f9;  /*changes color of the background of the table*/
+	border-collapse: collapse;
+	width: 100%;
+}
+tr{
+	display: table-row;
+	border-color: inherit;
+}
+.odd{
+	background: #ececec; /*changes color of the stripes table*/
+}
+th{
+	text-align: left;
+	padding: 1em 1em .5em;
+	font-weight: bold;
+	font-size: 120%;
+	color: #545257;  /*changes color of table hd text*/
+	background: #bbbcc0; /*changes color of table hd background*/
+}
+td{
+	padding: 1em 1em;
+	width: 69%;
+}
+#indent
+{
+    text-indent: 50px;   
+}
+hr
+{
+    width: 85%; 
+    border: 1px solid #480048;
+}
+img
+{
+    padding-top: 45px;
+    padding-left: 45px;   
+}
+figcaption
+{
+    text-align: center;     
+}
 footer
 {
-    height: 115px;
+    height: 75px;
     background-color: #480048;
     width: 100%;
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
 }
 
 footer p
