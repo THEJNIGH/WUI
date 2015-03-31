@@ -12,28 +12,64 @@ header
     height: 115px;
     background-color: #480048;
     width: 100%;
+    box-shadow:         0px 0px 5px #ececec;
+    
 }
 
-h1, h2
+h1 
 {
-    color: #FFFFFFF;
+    color: #FFFFFF;
     font-family: Geneva, sans-serif, arial;
-}
-
-section
-{ 
+    text-align: center;
+    padding-top: 25px;
     
 }
 
 footer
 {
-    height: 115px;
+    height: 65px;
     background-color: #480048;
     width: 100%;
+    clear: both;
 }
 
 footer p
 {
     color: #FFFFFF;
     font-family: Geneva, sans-serif, arial;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#right
+{
+    float: right;
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    width: 40.25%; 
+
+}
+
+#left
+{
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: justify;
+    width: 40.25%;  
+}
+figcaption 
+{
+    width: 260px;
+    padding-left: 50px;
+    text-align: center;
+} 
+img
+{
+    padding-left: 50px;
+    
 }
